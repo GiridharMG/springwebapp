@@ -44,6 +44,10 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	<distributionManagement>
+		<downloadUrl>http://mojo.codehaus.org/my-project</downloadUrl>
+		<status>deployed</status>
+	</distributionManagement>
 	<build>
 		<finalName>springwebapp</finalName>
 	</build>
